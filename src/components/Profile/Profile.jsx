@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Profile = ({username, tag, location, avatar, stats }) => {
+export const Profile = ({username, tag, location, avatar, stats }) => {
   return <div class="profile">
   <div class="description">
     <img
@@ -55,5 +55,3 @@ Profile.defaultProps = {
     likes: '0',
   },
 };
-
-export default Profile;

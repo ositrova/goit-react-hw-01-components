@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Statistics =({title, stats}) => {
+export const Statistics =({title, stats}) => {
   return (  <section class="statistics">
   <h2 class="title">{title}</h2>
 
@@ -31,4 +31,3 @@ Statistics.propTypes = {
 };
 
 
-export default Statistics;
