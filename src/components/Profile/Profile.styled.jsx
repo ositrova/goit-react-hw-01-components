@@ -5,7 +5,7 @@ export const Container = styled.div `
     margin-left: auto;
     margin-right: auto;
    background-color: aliceblue;
-   margin-bottom: 40px;
+   margin-bottom: 50px;
    padding: 15px;
    border: 1px solid black;
    border-radius: 6px;

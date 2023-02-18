@@ -9,6 +9,7 @@ width: 500px;
    padding: 15px;
    border: 1px solid black;
    border-radius: 6px;
+   margin-bottom: 50px;
 `
 
 export const Title = styled.h2 `
