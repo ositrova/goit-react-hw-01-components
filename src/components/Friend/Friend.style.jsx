@@ -20,8 +20,7 @@ background-color: aliceblue;
 list-style: none;
 display: flex;
 flex-direction: row;
-
-justify-content: space-evenly;
+justify-content: flex-start;
 align-items: center;
 gap: 10px;
 padding: 10px;
@@ -37,6 +36,11 @@ width: 10px;
 
 export const Avatar = styled.img `
 width: 50px;
+padding: 5px;
+border: 1px solid black;
+border-radius: 5px;
+box-shadow: 5px 2px 2px #727171;
+background-color: white;
 `
 
 export const Name = styled.p `
