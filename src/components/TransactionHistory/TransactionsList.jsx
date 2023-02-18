@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 export const TransactionList = ({ items }) => {
     return (
-        <table class="transaction-history">
+        <table>
         <thead>
           <tr>
             <th>Type</th>

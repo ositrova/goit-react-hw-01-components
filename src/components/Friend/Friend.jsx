@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 
 export const Friend = ({avatar, name, isOnline}) => {
     return (
-        <li class="item">
-     <span class="status">{isOnline}</span>
-        <img class="avatar" src={avatar} alt={name} width="48" />
-        <p class="name">{name}</p>
+        <li>
+     <span>{isOnline}</span>
+        <img src={avatar} alt={name} width="48" />
+        <p>{name}</p>
     </li>
     );
 };
