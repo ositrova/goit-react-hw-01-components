@@ -9,6 +9,7 @@ export const Container = styled.div `
    padding: 15px;
    border: 1px solid black;
    border-radius: 6px;
+   box-shadow: 3px 2px 2px #727171;
 `
 
 export const Description = styled.div `
@@ -59,7 +60,7 @@ border: 1px solid white;
 border-radius: 5px;
 padding: 5px;
 background-color: #bedcf7;
-box-shadow: 5px 2px 2px #727171;
+box-shadow: 3px 2px 2px #727171;
 align-items: center;
 `
 export const Label = styled.span `

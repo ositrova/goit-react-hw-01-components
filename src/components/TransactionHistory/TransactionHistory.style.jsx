@@ -7,7 +7,7 @@ export const Table = styled.table`
     border-spacing: 0; 
     border-radius: 5px;
     background-color: #fafafa;
-    box-shadow: 5px 2px 2px #727171;
+    box-shadow: 3px 2px 2px #727171;
     overflow: hidden;
 `;
 

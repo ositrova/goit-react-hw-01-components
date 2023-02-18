@@ -15,7 +15,7 @@ export const Item = styled.li `
 width: 200px;
 border: 1px solid black;
 border-radius: 5px;
-box-shadow: 5px 2px 2px #727171;
+box-shadow: 3px 2px 2px #727171;
 background-color: aliceblue;
 list-style: none;
 display: flex;
@@ -39,7 +39,7 @@ width: 50px;
 padding: 5px;
 border: 1px solid black;
 border-radius: 5px;
-box-shadow: 5px 2px 2px #727171;
+box-shadow: 3px 2px 2px #727171;
 background-color: white;
 `
 

@@ -10,6 +10,7 @@ width: 500px;
    border: 1px solid black;
    border-radius: 6px;
    margin-bottom: 50px;
+   box-shadow: 3px 2px 2px #727171;
 `
 
 export const Title = styled.h2 `
@@ -32,7 +33,7 @@ align-items: center;
 padding: 20px;
 border: 1px solid inherit;
 border-radius: 5px;
-box-shadow: 5px 2px 2px #727171;
+box-shadow: 3px 2px 2px #727171;
 width: 80px;
 
 
