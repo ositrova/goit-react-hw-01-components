@@ -17,6 +17,8 @@ export const Title = styled.h2 `
     display: flex;
     justify-content: center;
     font-weight: 800;
+    margin: 0;
+    margin-bottom: 30px;
 
 `
 export const StatList = styled.ul `

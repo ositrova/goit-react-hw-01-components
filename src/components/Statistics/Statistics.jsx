@@ -5,8 +5,8 @@ import {Section, Title, StatList, Item, Label, Percentage} from './Statistics.st
 export const Statistics =({title, stats}) => {
   return ( 
     <Section>
-  <Title>{title}</Title>
-
+  {title && <Title>{title}</Title>}
+  
   <StatList>
 
   {stats.map(({ id, label, percentage }) => (
@@ -20,6 +20,9 @@ export const Statistics =({title, stats}) => {
 </Section>
 );
 };
+
+
+
 
 const getRandomHexColor = () =>
   '#' + Math.floor(Math.random() * 16777215).toString(16);
